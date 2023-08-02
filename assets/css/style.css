@@ -1,0 +1,193 @@
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-track{
+  background: #43211d; 
+}
+::-webkit-scrollbar-thumb{
+  background: #a82c48;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+	scrollbar-color: #a82c48 #43211d;
+	scrollbar-width: thin;
+}
+body{
+	font-family: cursive !important;
+	overflow-x: hidden;
+}
+nav{
+	box-shadow: 1px 1px 5px;
+}
+nav .navbar-brand img{
+	width: 100px;
+}
+nav .navbar-toggler:focus{
+	outline: unset;
+	border: unset;	
+}
+nav .navbar-toggler{
+	color: #a82c48;
+}
+nav ul li a{
+	color: #a82c48;
+}
+nav ul li{
+	margin-left: 10px;
+}
+nav ul li .btn{
+	border: 2px solid #a82c48;
+	color: #a82c48;
+}
+nav ul li .btn:hover{
+	background: #a82c48;
+	color: #fff !important;
+}
+#home-header{
+	width: 100%;
+	height: 579px;
+	background: url('../img/bg-1.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 9.875rem 0 9.365rem;
+}
+h1{
+	color: #43211d !important;
+}
+h2{
+	color: #a82c48 !important;
+}
+#home-header p{
+	margin-top: 35px;
+}
+#home-header button{
+	padding: 10px 15px;
+	font-weight: 700;
+}
+#home-header button .fas{
+	margin-left: 10px;
+}
+button{
+	border-radius: 0px !important;
+}
+.st{
+	background: #a82c48;
+	color: #fff;
+	margin-right: 10px;
+	border: 2px solid #a82c48 !important;
+	transition: .6s;
+}
+.st:hover{
+	border: 2px solid #a82c48 !important;
+	background: transparent;
+	color: #a82c48;
+}
+.nd{
+	background: #fff;
+	color: #555;
+	margin-right: 12px;
+	padding: 10px 19px !important;
+	box-shadow: 1px 1px 2px #999, 1px 1px 3px #999;
+	transition: .2s;
+}
+.nd:hover{
+	border: 2px solid #a82c48 !important;
+	background: transparent;
+	color: #a82c48;
+	box-shadow: none;
+}
+#home-footer{
+	background: #a82c48;
+	color: #fff;
+}
+#about-bottom{
+	background: url('../img/bg-2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#explore img{
+	border-radius: 15px !important;
+}
+#explore .card{
+	border: none;
+}
+h4{
+	color: #43211d !important;
+}
+#explore .card h3{
+	color: #a82c48;
+}
+#reviews{
+	background: #a82c48;
+	color: #fff;
+}
+#reviews h1{
+	color: #fff !important;
+}
+#reviews h5,a{
+	color: #a82c48 !important;
+}
+#reviews img{
+	width: 80px;
+	border-radius: 50%;
+	align-items: center !important;
+}
+#reviews button::before{
+	color: #000;
+	font-size: 30px;
+	padding: 5px;
+	background: #ddd;
+}
+#reviews .owl-carousel .owl-dot span:hover{
+	background: #a82c48;
+}
+#reviews .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+	background: #a82c48;
+}
+#Faq-footer{
+	background: url('../img/bg-3.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+#Faq-footer button:hover{
+	color: #fff;
+}
+#sign-up input{
+	width: 320px;
+}
+footer{
+	background: #a82c48;
+}
+footer .mr{
+	margin-right: 30px;
+}
+footer .mr1{
+	margin-right: 20px;
+}
+@media screen and (max-width: 991px){
+	#home-header{
+		padding: 8.875rem 0 9.365rem;
+	}
+}
+@media screen and (max-width: 350px){
+	#home-header .nd{
+		margin-top: 10px ;
+	}
+}
+@media screen and (max-width: 400px){
+	footer .mr{
+		margin-right: 10px;
+	}
+	footer .mr1{
+	margin-right: 10px;
+	}
+}
